@@ -1,3 +1,16 @@
+xfonts-utils (1:7.7+3ubuntu0.16.04.2) xenial; urgency=medium
+
+  * control: Add autoconf to build-depends, because the build is picky.
+    (LP: #1687981)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 26 Jun 2017 14:27:33 +0300
+
+xfonts-utils (1:7.7+3ubuntu0.16.04.1) xenial; urgency=medium
+
+  * control: Build against libxfont1-dev. (LP: #1687981)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Sun, 21 May 2017 08:44:56 +0300
+
 xfonts-utils (1:7.7+3) unstable; urgency=medium
 
   * Let uscan verify tarball signatures.

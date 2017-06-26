@@ -7,12 +7,13 @@ Build-Depends:
  pkg-config,
  quilt,
  autotools-dev,
- libxfont-dev (>= 1:1.0.0),
+ libxfont1-dev (>= 1:1.0.0),
  libx11-dev (>= 2:1.0.0),
  x11proto-core-dev (>= 7.0.25),
  libfreetype6-dev,
  libfontenc-dev,
  xutils-dev (>= 1:7.5+4),
+ autoconf,
 Standards-Version: 3.9.2
 Vcs-Git: git://git.debian.org/git/pkg-xorg/font/xfonts-utils
 Vcs-Browser: http://git.debian.org/?p=pkg-xorg/font/xfonts-utils.git
